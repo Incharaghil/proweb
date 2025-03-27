@@ -38,8 +38,23 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
 ### 3. Langkah Instalasi & Konfigurasi
 - **Clone Repository**
   Repository disalin ke dalam perangkat lokal dengan perintah berikut:
-  ```php
+  ```
   git clone [URL_REPOSITORY]
   cd proweb
   ```
-- 
+- **Setup Database**
+    1. Buat database baru di **pgAdmin 4**
+    2. Impor struktur database
+    3. Menyesuaikan kebutuhan data untuk backend
+- **Instalasi Dependensi**
+  ➡️**Frontend**
+  ```
+  cd proweb-frontend
+  npm install
+  ```
+  ➡️**Backend**
+  ```
+  cd proweb-backend
+  npm install
+  ```
+- **Konfigurasi Environment**
