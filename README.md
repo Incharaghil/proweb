@@ -123,15 +123,15 @@ proweb/
 ├── proweb-frontend/
 │   ├── src/
 │   │   ├── components/
-│   │   │   └── ProdukList.tsx    # Komponen utama untuk manajemen produk
-│   │   ├── App.tsx              # Komponen root
-│   │   └── App.css              # Styling global
-│   ├── public/                  # Asset statis
-│   └── package.json            # Dependencies frontend
+│   │   │   └── ProdukList.tsx    
+│   │   ├── App.tsx              
+│   │   └── App.css              
+│   ├── public/                  
+│   └── package.json            
 └── proweb-backend/
-    ├── index.js                # Entry point backend
-    ├── db.js                   # Konfigurasi database
-    └── package.json           # Dependencies backend
+    ├── index.js                
+    ├── db.js                  
+    └── package.json           
 ```
 
 ### 7. API Endpoints
