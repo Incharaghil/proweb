@@ -170,3 +170,51 @@ proweb/
   📤 Response: Success message
 
   ✅ Status: 200 OK
+
+### 8. API Endpoints
+#### Tambah Produk
+- **Form Input**
+  - Form sederhana dan mudah digunakan
+  - Indikator visual saat mengetik
+  - Status loading saat pengiriman data
+  - Notifikasi sukses atau error
+- **Validasi**
+  - Nama produk tidak boleh kosong
+  - Harga harus angka positif
+  - Batas karakter untuk nama produk
+  - Format harga otomatis
+  - Penanganan karakter khusus
+#### Daftar Produk
+- **Tampilan & Desain**
+  - Terdapat daftar berisi nama produk
+  - Memiliki warna yang sangat _coquet_ dan menggemaskan bagi wanita
+- **Fitur**
+  - Pembaruan otomatis saat ada perubahan data
+  - Mengedit dan menghapus produk
+  - Menampilkan notifikasi saat terdapat perubahan data
+
+### 9. Quality Assurance Testing
+#### CRUD Operation Testing
+- **Create**
+  - Validasi ketika menginput nama produk
+  - Validasi ketika menginput harga produk
+  - Feedback sukses/error
+  - Auto-refresh ketika setelah pembuatan produk baru
+- **Read**
+  - Menampilkan seluruh informasi yang dimasukkan kedalam input
+  - Menampilkan format yang benar
+- **Update**
+  - Validasi input ketika edit
+
+#### UI/UX Testing
+- Menampilkan pesan error yang
+- Transisi yang smooth
+- Loading states jelas
+- Responsive
+
+### 10. Performance Testing
+- Smooth Scrolling
+- Fast Initial Load
+- Efficient data fetching
+
+
