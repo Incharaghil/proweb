@@ -30,3 +30,16 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
 -  **React** digunakan untuk komunikasi dengan backend, lengkap dengan penanganan error.
 -  **CSS Modern** diterapkan dengan **Flexbox**, desain responsif, serta animasi dan transisi.
 
+#### ⚙️ **Backend (Node.js + Express.js)**
+- **Express.js** digunakan untuk membangun **RESTful API.**
+- Middleware dipakai untuk menangani **CORS** dan error handling.
+- **MySQL** sebagai database relasional dengan query yang dioptimalkan.
+
+### 3. Langkah Instalasi & Konfigurasi
+- **Clone Repository**
+  Repository disalin ke dalam perangkat lokal dengan perintah berikut:
+  ```php
+  git clone [URL_REPOSITORY]
+  cd proweb
+  ```
+- 
