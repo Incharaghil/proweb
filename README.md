@@ -84,11 +84,11 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
   ```
 ### 5. Instruksi Instalansi
 1. **Clone Repository**
-  Menyalin repository ke perangkat lokal dengan kode dibawah
-  ```
-  git clone [URL_REPOSITORY]
-  cd proweb
-  ```
+    Menyalin repository ke perangkat lokal dengan kode dibawah
+    ```
+    git clone [URL_REPOSITORY]
+    cd proweb
+    ```
 2. **Setup Database (PostgreSQL-pgAdmin 4)**
 3. **Install Dependencies untuk Frontend**
    ```
@@ -96,6 +96,24 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
    npm install
    ```
 4. **Konfigurasi Environment**
-5. **Jalankan Backend**
-6. **Jalankan Frontend**
-
+   - Membuat file .env di dalam folder backend
+   - Mengisi dengan konfigurasi PostgreSQL
+     ```
+     DB_HOST=localhost
+     DB_USER=your_username
+     DB_PASSWORD=your_password
+     DB_NAME=your_database
+     DB_PORT=5432  # Port default PostgreSQL
+     PORT=3001  # Port backend
+     ```
+6. **Jalankan Backend**
+   Untuk menjalankan backend perlu dilakukan dengan penggunakan perintah
+   ```
+   cd proweb-backend
+   npm start
+   ```
+8. **Jalankan Frontend**
+   ```
+   cd proweb-frontend
+   npm run dev
+   ```
