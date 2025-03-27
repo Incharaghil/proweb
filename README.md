@@ -137,12 +137,36 @@ proweb/
 ### 7. API Endpoints
 #### Produk
 - GET/produk
+  
   📌 Deskripsi: Mendapatkan semua produk
+
   📤 Response: Array of products
+  
   ✅ Status: 200 OK
-- POST /produk
+  
+- POST/produk
+  
   📌 Deskripsi: Menambah produk baru
+  
   📥 Body: { nama: string, harga: number }
+  
   📤 Response: Created product
+  
   ✅ Status: 201 Created
 
+- PUT/produk
+  📌 Deskripsi: Mengupdate produk berdasarkan ID
+
+  📥 Body: { nama: string, harga: number }
+
+  📤 Response: Updated product
+
+  ✅ Status: 200 OK
+  
+- DELETE /produk/:id
+
+  📌 Deskripsi: Menghapus produk berdasarkan ID
+
+  📤 Response: Success message
+
+  ✅ Status: 200 OK
