@@ -14,5 +14,5 @@ Sistem Manajemen E-Commerce Sederhana adalah sebuah platform yang digunakan untu
 ### 🛠️ Teknologi yang Digunakan 
 Dalam pembuatan sistem ini terdapat beberapa teknologi yang digunakan untuk mengerjakan frontend dan backend
 ## Frontend
-![IMG-20250306-WA0015](https://github.com/user-attachments/assets/dfc50b1d-1d2b-4f38-9446-125f2c720b35)
+- ** 
 
