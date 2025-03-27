@@ -188,10 +188,12 @@ proweb/
 
 ### 8. API Endpoints
 #### Tambah Produk
+
+![image](https://github.com/user-attachments/assets/70da8305-c2bc-4183-b118-0ed6c8f653c6)
+
 - **Form Input**
   - Form sederhana dan mudah digunakan
   - Indikator visual saat mengetik
-  - Status loading saat pengiriman data
   - Notifikasi sukses atau error
 - **Validasi**
   - Nama produk tidak boleh kosong
@@ -199,7 +201,29 @@ proweb/
   - Batas karakter untuk nama produk
   - Format harga otomatis
   - Penanganan karakter khusus
+ 
+#### Edit Produk
+![image](https://github.com/user-attachments/assets/3c0b0b6a-3aaf-41b2-b369-1bc9f9f5770c)
+Form Edit Produk
+
+![image](https://github.com/user-attachments/assets/07ad000d-e6b1-4587-893d-14b43570d404)
+Notifikasi Edit Produk
+
+![image](https://github.com/user-attachments/assets/b2961cde-46d2-4ceb-ba4a-8e2e613552b8)
+Konfirmasi Hapus produk
+
+![image](https://github.com/user-attachments/assets/6edff02f-5cc2-4c64-b027-7cc62d4467af)
+Notifikasi produk telah dihapus
+
+- **Form Input**
+  - Form sederhana dan mudah digunakan
+  - Indikator visual saat mengetik
+  - Notifikasi sukses atau error
+ 
 #### Daftar Produk
+
+![image](https://github.com/user-attachments/assets/caa579a9-d3fc-4012-a75b-a41f67ced08b)
+
 - **Tampilan & Desain**
   - Terdapat daftar berisi nama produk
   - Memiliki warna yang sangat _coquette_ dan menggemaskan bagi wanita
