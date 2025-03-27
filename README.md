@@ -14,8 +14,11 @@ Sistem Manajemen E-Commerce Sederhana adalah sebuah platform yang digunakan untu
 ### 🛠️ Setup & Panduan Pengguna 
 #### 1. Kebutuhan Pembuatan Sistem
 Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
+
 ✅ **Node.js** versi 14
+
 ✅ **MySQL** minimal 8.0
+
 ✅ **NPM** versi 6
 
 ##### 2. Teknologi yang Digunakan
