@@ -82,3 +82,16 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
   cd proweb-frontend
   npm run dev
   ```
+### 5. Instruksi Instalansi
+1. **Clone Repository**
+  Menyalin repository ke perangkat lokal dengan kode dibawah
+  ```
+  git clone [URL_REPOSITORY]
+  cd proweb
+  ```
+- **Setup Database (PostgreSQL-pgAdmin 4)**
+- **Install Dependencies untuk Frontend**
+- **Konfigurasi Environment**
+- **Jalankan Backend**
+- **Jalankan Frontend**
+
