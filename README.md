@@ -213,15 +213,13 @@ proweb/
 ### 9. Quality Assurance Testing
 #### CRUD Operation Testing
 - **Create**
-  - Validasi ketika menginput nama produk
-  - Validasi ketika menginput harga produk
   - Feedback sukses/error
   - Auto-refresh ketika setelah pembuatan produk baru
 - **Read**
   - Menampilkan seluruh informasi yang dimasukkan kedalam input
   - Menampilkan format yang benar
 - **Update**
-  - Validasi input ketika edit
+  - Validasi input ketika edit dan delete
 
 #### UI/UX Testing
 - Menampilkan pesan error yang
