@@ -117,3 +117,32 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
    cd proweb-frontend
    npm run dev
    ```
+### 6. Instruksi Instalansi
+```
+proweb/
+├── proweb-frontend/
+│   ├── src/
+│   │   ├── components/
+│   │   │   └── ProdukList.tsx    # Komponen utama untuk manajemen produk
+│   │   ├── App.tsx              # Komponen root
+│   │   └── App.css              # Styling global
+│   ├── public/                  # Asset statis
+│   └── package.json            # Dependencies frontend
+└── proweb-backend/
+    ├── index.js                # Entry point backend
+    ├── db.js                   # Konfigurasi database
+    └── package.json           # Dependencies backend
+```
+
+### 7. API Endpoints
+#### Produk
+- GET/produk
+  📌 Deskripsi: Mendapatkan semua produk
+  📤 Response: Array of products
+  ✅ Status: 200 OK
+- POST /produk
+  📌 Deskripsi: Menambah produk baru
+  📥 Body: { nama: string, harga: number }
+  📤 Response: Created product
+  ✅ Status: 201 Created
+
