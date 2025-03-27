@@ -220,6 +220,7 @@ proweb/
 ### 11. Troubleshooting
 
 -**Masalah Koneksi Database**
+  
   Jika muncul error saat koneksi pada satabase, maka dilakukan langkah berikut:
   - Pastikan PostgreSQL berjalan di pgAdmin 4.
   - Periksa ulang konfigurasi database di file db.js atau .env.
@@ -228,6 +229,7 @@ proweb/
   - Pastikan port PostgreSQL (default: 5432) tidak digunakan aplikasi lain.
 
 -**Masalah Koneksi Database**
+  
   Jika aplikasi tidak bisa mengambil data karena CORS error:
   - Pastikan backend berjalan di port yang benar (misalnya 3001).
   - Periksa pengaturan CORS di backend, tambahkan middleware jika perlu
@@ -236,6 +238,7 @@ proweb/
   - Pastikan method HTTP (GET, POST, PUT, DELETE) diizinkan oleh backend.
 
 -**Masalah TypeScript**
+ 
   Jika terjadi error terkait TypeScript, lakukan langkah ini:
   - Jalankan npm install untuk memastikan semua dependencies terpasang.
   - Periksa tipe data di interface seperti Produk.
@@ -244,6 +247,7 @@ proweb/
   - Bersihkan cache TypeScript dengan tsc --watch --force atau npm run clean.
 
 -**Data Tidak Muncul di Aplikasi**
+  
   Jika data tidak tampil di halaman:
   - Periksa koneksi internet jika backend berjalan di server eksternal.
   - Pastikan backend sudah berjalan dan mendengarkan request.
@@ -252,6 +256,7 @@ proweb/
   - Gunakan DevTools Network Tab untuk memeriksa permintaan ke API.
     
 -**Masalah Saat Build Aplikasi**
+ 
   Jika terjadi error ketika menjalankan build (npm run build):
   - Hapus folder node_modules dan file package-lock.json, lalu jalankan ulang npm install.
   - Bersihkan cache dengan npm cache clean --force.
