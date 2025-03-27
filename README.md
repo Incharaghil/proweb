@@ -12,6 +12,9 @@
 Sistem Manajemen E-Commerce Sederhana adalah sebuah platform yang digunakan untuk mengelola toko online secara efisien. Sistem ini memiliki fitur utama seperti menambahkan, mengedit, dan menghapus produk, sehingga memudahkan pengguna dalam mengatur katalog barang yang dijual. Selain itu, dapat dilengkapi dengan manajemen pesanan, data pelanggan, dan laporan penjualan untuk mendukung operasional bisnis secara lebih terstruktur. 
 
 ## 🛠️ Setup & Panduan Pengguna 
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 1. Kebutuhan Pembuatan Sistem
 Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
 
@@ -34,6 +37,8 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
 - **Express.js** digunakan untuk membangun **RESTful API.**
 - Middleware dipakai untuk menangani **CORS** dan error handling.
 - **MySQL** sebagai database relasional dengan query yang dioptimalkan.
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 3. Langkah Instalasi & Konfigurasi
 - **Clone Repository**
@@ -69,6 +74,8 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
      DB_NAME=your_database
      PORT=3001
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 4. Manjalankan Aplikasi
 - **Menjalankan backend**
   Untuk menjalankan Backend, menggunakan kode yang dijalankan pada terminal yaitu
@@ -82,6 +89,8 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
   cd proweb-frontend
   npm run dev
   ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 5. Instruksi Instalansi
 1. **Clone Repository**
     Menyalin repository ke perangkat lokal dengan kode dibawah
@@ -117,6 +126,8 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
    cd proweb-frontend
    npm run dev
    ```
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 6. Instruksi Instalansi
 ```
 proweb/
@@ -133,6 +144,8 @@ proweb/
     ├── db.js                  
     └── package.json           
 ```
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 7. API Endpoints
 #### Produk
@@ -171,6 +184,8 @@ proweb/
 
   ✅ Status: 200 OK
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 8. API Endpoints
 #### Tambah Produk
 - **Form Input**
@@ -193,6 +208,8 @@ proweb/
   - Mengedit dan menghapus produk
   - Menampilkan notifikasi saat terdapat perubahan data
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 9. Quality Assurance Testing
 #### CRUD Operation Testing
 - **Create**
@@ -212,10 +229,14 @@ proweb/
 - Loading states jelas
 - Responsive
 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 ### 10. Performance Testing
 - Smooth Scrolling
 - Fast Initial Load
 - Efficient data fetching
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### 11. Troubleshooting
 
