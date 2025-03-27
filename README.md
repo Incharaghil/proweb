@@ -47,6 +47,7 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
     2. Impor struktur database
     3. Menyesuaikan kebutuhan data untuk backend
 - **Instalasi Dependensi**
+
   ➡️**Frontend**
   ```
   cd proweb-frontend
@@ -58,3 +59,26 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
   npm install
   ```
 - **Konfigurasi Environment**
+  Menyesuaikan file yang dibuat untuk backend
+  1. Buat file di dalam folder backend
+  2. Tambahkan kofigurasi sesuai dengan database yang digunakan
+     ```
+     DB_HOST=localhost
+     DB_USER=your_username
+     DB_PASSWORD=your_password
+     DB_NAME=your_database
+     PORT=3001
+
+### 4. Manjalankan Aplikasi
+- **Menjalankan backend**
+  Untuk menjalankan Backend, menggunakan kode yang dijalankan pada terminal yaitu
+  ```
+  cd proweb-backend
+  npm start
+  ```
+- **Menjalankan Frontend**
+  Untuk menjalankan Backend, menggunakan kode yang dijalankan pada terminal yaitu
+  ```
+  cd proweb-frontend
+  npm run dev
+  ```
