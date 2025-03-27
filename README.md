@@ -23,5 +23,10 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
 
 ### 2. Teknologi yang Digunakan
 
-🎨**Frontend (React.js + TypeScript)**
+####🎨**Frontend (React.js + TypeScript)**
+-  **Vite** digunakan sebagai build tool untuk pengembangan yang lebih cepat.
+-  **TypeScript** membantu menjaga keamanan tipe data.
+-  **React Hooks** mengelola state aplikasi secara efisien.
+-  **React** digunakan untuk komunikasi dengan backend, lengkap dengan penanganan error.
+-  **CSS Modern** diterapkan dengan **Flexbox**, desain responsif, serta animasi dan transisi.
 
