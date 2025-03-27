@@ -89,9 +89,13 @@ Sebelum memulai perangkat perlu menyediakan spesifikasi tools yaitu
   git clone [URL_REPOSITORY]
   cd proweb
   ```
-- **Setup Database (PostgreSQL-pgAdmin 4)**
-- **Install Dependencies untuk Frontend**
-- **Konfigurasi Environment**
-- **Jalankan Backend**
-- **Jalankan Frontend**
+2. **Setup Database (PostgreSQL-pgAdmin 4)**
+3. **Install Dependencies untuk Frontend**
+   ```
+   cd proweb-frontend
+   npm install
+   ```
+4. **Konfigurasi Environment**
+5. **Jalankan Backend**
+6. **Jalankan Frontend**
 
